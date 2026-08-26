@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://gct.com"
+      ],
+      "representativeUrl": "https://gct.com",
+      "urlPattern": "/",
+      "description": "Grand Circle Travel homepage: full-bleed hero with search, trip carousel, country/article/stat card grids, info and awards columns, and a mid-page promotional hero banner.",
+      "blocks": [
+        {
+          "name": "hero-search",
+          "instances": [
+            ".HeroWithSearchBlock_GCT-Evergreen-HP-Hero-w-search"
+          ]
+        },
+        {
+          "name": "carousel-trips",
+          "instances": [
+            ".TripTileCardsBlock_GCT-HP-New-Trip-Card-Section-Block"
+          ]
+        },
+        {
+          "name": "cards-country",
+          "instances": [
+            ".DestinationsGridBlock_GCT-HP-New-Destination-Grid-Block"
+          ]
+        },
+        {
+          "name": "columns-info",
+          "instances": [
+            ".ColorGridBlock_GCT-HP-New-The-Road-Less-Traveled-8-20"
+          ],
+          "section": "highlight"
+        },
+        {
+          "name": "columns-awards",
+          "instances": [
+            ".RichTextBlock_GCT-HP-New-awards-RTF-8-20"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            "[class*=\"ImageWithContentGridBlock_GCT-HP-Inside-Scoop\"]"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            ".FullBleedHeroImageBlock_GCT-HP-15days-or-less"
+          ]
+        },
+        {
+          "name": "cards-stats",
+          "instances": [
+            ".RichTextBlock_GCT-HP-New-Why-OAT-RTF-8-20"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "rc2",
+          "name": "hero-search",
+          "selector": "body > main > div.mx-auto > div.opti-content-area",
+          "style": null,
+          "blocks": [
+            "hero-search"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc3",
+          "name": "home-content",
+          "selector": "body > main > div.mx-auto > section.container-component.pb-10",
+          "style": null,
+          "blocks": [
+            "carousel-trips",
+            "cards-country",
+            "columns-info",
+            "columns-awards",
+            "cards-article",
+            "hero-banner",
+            "cards-stats"
+          ],
+          "defaultContent": [
+            ".RichTextBlock_GCT---By-Country-RTF"
+          ]
+        }
+      ]
+    }
+  ]
+}

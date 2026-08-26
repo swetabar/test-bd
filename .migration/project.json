@@ -1,0 +1,15 @@
+{
+  "type": "da",
+  "sites": {
+    "test-bd": {
+      "previewOrg": "swetabar",
+      "previewSite": "test-bd",
+      "contentHostUrl": "https://content.da.live/swetabar/test-bd/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json",
+      "botProtected": true
+    }
+  },
+  "features": [
+    "site-planning"
+  ]
+}

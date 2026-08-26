@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://gct.com",
+  "path": "index",
+  "timestamp": "2026-08-26T10:22:09.812Z",
+  "title": "River Cruises, Small Ship Cruises, & Land Tours | Grand Circle Travel & Grand Circle Cruise Line",
+  "template": "home",
+  "blocks": [
+    "hero-search",
+    "carousel-trips",
+    "cards-country",
+    "columns-info",
+    "columns-awards",
+    "cards-article",
+    "hero-banner",
+    "cards-stats"
+  ]
+}

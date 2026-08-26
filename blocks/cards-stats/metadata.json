@@ -1,0 +1,37 @@
+{
+  "variantName": "cards-stats",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-08-26T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://gct.com",
+    "originPage": "Grand Circle Travel homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "stat-callouts",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + (number + label)",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "row of statistic/metric callouts with an icon and a number/label",
+      "'why choose us' proof-point strips"
+    ],
+    "notSuitableFor": [
+      "image-heavy article cards",
+      "navigation tiles with linked labels"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-26T00:00:00.000Z"
+  }
+}

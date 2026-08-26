@@ -1,0 +1,38 @@
+{
+  "variantName": "hero-search",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-08-26T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://gct.com",
+    "originPage": "Grand Circle Travel homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background-image + heading + search-widget",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero with full-bleed background image",
+      "landing pages with a prominent search entry point",
+      "destination/travel intro banners"
+    ],
+    "notSuitableFor": [
+      "text-only intros without background image",
+      "mid-page callouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-26T00:00:00.000Z"
+  }
+}

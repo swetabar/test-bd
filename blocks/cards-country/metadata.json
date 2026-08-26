@@ -1,0 +1,37 @@
+{
+  "variantName": "cards-country",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-08-26T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://gct.com",
+    "originPage": "Grand Circle Travel homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "navigation-tiles",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "image + (name + trip-count)",
+    "buttonCount": 0,
+    "imageCount": 9
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "compact browse-by tiles with a small image and short label",
+      "category/country/destination navigation grids"
+    ],
+    "notSuitableFor": [
+      "article cards with long descriptions",
+      "image-less card lists"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-26T00:00:00.000Z"
+  }
+}
